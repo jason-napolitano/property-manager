@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+  @apply p-2 w-full;
+}
+
+.alert {
+  @apply flex p-2 sm:text-justify border;
+}
+
+.alert-default {
+  @apply alert text-gray-500 bg-gray-200 border-gray-300;
+}
+
+.alert-info {
+  @apply alert text-gray-200 bg-blue-500 border-blue-600;
+}
+
+.alert-danger,
+.alert-error {
+  @apply alert text-gray-200 bg-red-500 border-red-600;
+}
+
+.alert-success {
+  @apply alert text-gray-200 bg-green-500 border-green-600;
+}
+
+.alert-warning {
+  @apply alert text-gray-200 bg-yellow-400 border-yellow-600;
+}
+
+.btn {
+  @apply p-1.5 rounded bg-stone-200 hover:bg-stone-300 text-stone-700 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-600 transition;
+}
+
+html,
+body,
+#app {
+    font-family: 'Raleway', 'Dosis', sans-serif;
+}
+
+@import './reset';
+@import './fonts';

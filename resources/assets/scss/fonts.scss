@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  src: url('../fonts/Sacramento-Regular.ttf') format('truetype');
+}
+
+.cursive {
+    font-family: 'Sacramento', sans-serif;
+}
